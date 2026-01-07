@@ -23,8 +23,7 @@ print(f"Input: {n_terms}")
 for i in range(n_terms + 1):
     print(fibonacci(i), end=", ")
 
-    #ex3
-    # -------- Car Class --------
+#ex3
 class Car:
     def __init__(self, position, speed):
         self.position = position
